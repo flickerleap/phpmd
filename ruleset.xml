@@ -17,7 +17,7 @@
     <rule ref="rulesets/controversial.xml" />
     <rule ref="rulesets/design.xml" />
     <rule ref="rulesets/naming.xml">
-        <!-- some framework variables such as $to will trigger this and are manually specified below -->
+        <!-- some framework variables such as $to will trigger this, so the rule is excluded here and then manually specified below -->
         <exclude name="ShortVariable" />
     </rule>
     <rule ref="rulesets/unusedcode.xml">

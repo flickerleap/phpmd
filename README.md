@@ -5,13 +5,13 @@ This project contains a ruleset to be used with phpmd https://github.com/phpmd/p
 ## Installation
 
 ```bash
-$ composer require phpmd/phpmd flickerleap/phpmd
+$ composer global require phpmd/phpmd flickerleap/phpmd
 ```
 
 ## Usage
 
 ```bash
-$ vendor/bin/phpmd path/to/src text vendor/flickerleap/phpmd/ruleset.xml
+$ ~/.composer/vendor/bin/phpmd path/to/src text ~/.composer/vendor/flickerleap/phpmd/ruleset.xml
 ```
 
 ## Rules

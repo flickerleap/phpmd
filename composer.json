@@ -1,0 +1,7 @@
+{
+    "name": "flickerleap/phpmd",
+    "description": "FlickerLeap php mess detector",
+    "require": {
+        "phpmd/phpmd": "^2.6"
+    }
+}

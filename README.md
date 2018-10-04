@@ -5,7 +5,7 @@ This project contains a ruleset to be used with phpmd https://github.com/phpmd/p
 ## Installation
 
 ```bash
-$ composer global require phpmd/phpmd flickerleap/phpmd
+$ composer global require flickerleap/phpmd
 ```
 
 ## Usage
